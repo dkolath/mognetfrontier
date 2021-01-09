@@ -1,3 +1,11 @@
+# !mog_raffle 5
+# - Honax Xolbringer
+# - Marlin Wave
+# - Ziamaral Mol
+# - Cadence Carol
+# - Wolfegang Nazdravia
+# - Tatanori Mimizigo
+
 class MogRaffle
   def self.call(event, args)
     num_winners = args.first.to_i > 0 ? args.shift.to_i : 10
