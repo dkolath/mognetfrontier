@@ -1,4 +1,4 @@
-class PlaySoundEffects
+class PlaySoundEffect
 
   def self.call(bot, event, _args)
 
