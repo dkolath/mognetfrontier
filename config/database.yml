@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: mognetfrontier_production
-  username: mognetfrontier
-  password: <%= ENV['MOGNETFRONTIER_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
